@@ -12,3 +12,18 @@ animalName.textContent = animal.name;
 
 const animalImage = document.getElementById('animal-image');
 animalImage.src = `/assets/${animal.type}.svg`;
+
+function renderAnimalDetails(animal) {
+    const div = document.createElement('div');
+    const head = document.createElement('h1');
+    const text = document.createElement('p');
+    const img = document.createElement('img');
+    img.src = `/assets/${animal.type}.svg`;
+    head.textContent = animal.name;
+    text.textContent = animal.says;
+    div.append(head, text, img);
+    return div;
+}
+
+const animalDiv = renderAnimalDetails(animal);
+MediaDeviceInfo.append(animal);

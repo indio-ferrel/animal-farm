@@ -18,6 +18,6 @@ export function renderListItem(animal) {
     span.textContent = animal.says;
 
     a.append(img, nameSpan, span);
-    div.append(img, nameSpan, span);
+    div.append(a);
     return div;
 }
