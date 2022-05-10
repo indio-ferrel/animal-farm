@@ -36,9 +36,8 @@ For this deliverable, you have been given a working app that shows a list of ani
 
 Background Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=147828">OpenClipart-Vectors</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=147828">Pixabay</a>
 
-To Do
+To Do  
 ✅ create animal-detail folder  
 ✅ create animal-detail.js  
--link to animal-detail.js from html  
--renderanimal function in utils  
--findByID function in utils  
+✅ link to animal-detail.js from html  
+-renderAnimal function in utils  
